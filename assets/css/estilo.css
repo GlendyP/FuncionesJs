@@ -1,0 +1,39 @@
+.caja-colores {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border: 1px solid #000;
+  transition: all ease 0.3s;
+}
+
+.caja-colores .cuadrado:hover {
+  cursor: pointer;
+}
+
+#azul {
+  background-color: blue;
+}
+#rojo {
+  background-color: red;
+}
+#verde {
+  background-color: green;
+}
+#amarillo {
+  background-color: yellow;
+}
+
+.caja-teclado {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
